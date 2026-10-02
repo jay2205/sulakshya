@@ -72,16 +72,43 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Sulakshya — Small Gestures That Bring Big Smiles" },
+      {
+        name: "description",
+        content:
+          "Sulakshya Seva Samithi is a volunteer-led NGO bringing joy, care, and opportunity to underprivileged children and communities across India.",
+      },
+      { name: "author", content: "Sulakshya Seva Samithi" },
+      { property: "og:site_name", content: "Sulakshya Seva Samithi" },
+      { property: "og:title", content: "Sulakshya — Small Gestures That Bring Big Smiles" },
+      {
+        property: "og:description",
+        content:
+          "Sulakshya Seva Samithi is a volunteer-led NGO bringing joy, care, and opportunity to underprivileged children and communities across India.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.sulakshya.org" },
+      { property: "og:image", content: "https://www.sulakshya.org/logo.png" },
+      { property: "og:image:secure_url", content: "https://www.sulakshya.org/logo.png" },
+      { property: "og:image:type", content: "image/png" },
+      { property: "og:image:width", content: "342" },
+      { property: "og:image:height", content: "307" },
+      { property: "og:image:alt", content: "Sulakshya Seva Samithi Logo" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@SulakshyaNGO" },
+      { name: "twitter:creator", content: "@SulakshyaNGO" },
+      { name: "twitter:title", content: "Sulakshya — Small Gestures That Bring Big Smiles" },
+      {
+        name: "twitter:description",
+        content:
+          "Sulakshya Seva Samithi is a volunteer-led NGO bringing joy, care, and opportunity to underprivileged children and communities across India.",
+      },
+      { name: "twitter:image", content: "https://www.sulakshya.org/logo.png" },
+      { name: "twitter:image:alt", content: "Sulakshya Seva Samithi Logo" },
     ],
     links: [
+      { rel: "icon", href: "/logo.png", type: "image/png" },
+      { rel: "apple-touch-icon", href: "/logo.png" },
       {
         rel: "preconnect",
         href: "https://fonts.googleapis.com",
