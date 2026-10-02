@@ -1,8 +1,11 @@
 {
-  "name": "tanstack_start_ts",
+  "name": "sulakshya",
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
