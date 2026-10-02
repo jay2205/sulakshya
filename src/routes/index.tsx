@@ -16,8 +16,31 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Sulakshya is a volunteer-driven NGO bringing joy, care, and opportunity to underprivileged children across India.",
+          "Sulakshya Seva Samithi is a volunteer-led NGO bringing joy, care, and opportunity to underprivileged children and communities across India.",
       },
+      { property: "og:title", content: "Sulakshya — Small Gestures That Bring Big Smiles" },
+      {
+        property: "og:description",
+        content:
+          "Sulakshya Seva Samithi is a volunteer-led NGO bringing joy, care, and opportunity to underprivileged children and communities across India.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.sulakshya.org" },
+      { property: "og:image", content: "https://www.sulakshya.org/logo.png" },
+      { property: "og:image:secure_url", content: "https://www.sulakshya.org/logo.png" },
+      { property: "og:image:type", content: "image/png" },
+      { property: "og:image:width", content: "342" },
+      { property: "og:image:height", content: "307" },
+      { property: "og:image:alt", content: "Sulakshya Seva Samithi Logo" },
+      { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Sulakshya — Small Gestures That Bring Big Smiles" },
+      {
+        name: "twitter:description",
+        content:
+          "Sulakshya Seva Samithi is a volunteer-led NGO bringing joy, care, and opportunity to underprivileged children and communities across India.",
+      },
+      { name: "twitter:image", content: "https://www.sulakshya.org/logo.png" },
+      { name: "twitter:image:alt", content: "Sulakshya Seva Samithi Logo" },
     ],
   }),
 });
